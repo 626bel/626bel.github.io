@@ -131,11 +131,12 @@ left:15px;
     }
         
 }
-@media screen and (max-width:412px) {
+@media screen and (max-width:320px) {
     .#logo{
         height:80%;
         width:80%;
     }
+    .contact:11pt;
     
         
 }
