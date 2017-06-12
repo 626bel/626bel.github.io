@@ -1,0 +1,128 @@
+.bg-texture{
+    border-image: url(img/bgt.png);
+    background-size: cover;
+}
+.bg-h-img{
+    background-image: url(img/bgh.jpg);
+    background-size:cover;
+    background-position:center;
+    
+}
+li{
+    list-style: none;
+}
+.bg-orange{
+    background-color: yellow;
+}
+.bg-black{
+    background-color: black;
+}
+
+.bg-white{
+    background-color:white;
+}
+.contact-form{
+    background-color: rgba(0,0,0,.6);
+    font-size: 24pt;
+    font-family: impact;
+}
+.text-black{
+    color:black;
+}
+.text-black:hover{
+    color:red;
+}
+.text-white:hover{
+    color:red;
+}
+.nav-link{
+   
+    text-transform: uppercase;
+    font-family: impact;
+    font-size: 14pt;
+    font-weight:100;
+}
+
+.contact{
+    font-family: impact;
+    font-size: 24pt;
+}
+
+.logo{
+position: absolute;
+top:-47px;
+left:15px;
+}
+.slogan{
+    height:300px;   
+}
+.slogan p{
+    color:yellow;
+    font-size: 36pt;
+    font-family: impact;
+    line-height: 50px;
+    text-shadow: 3px 3px 3px black;
+    text-transform: uppercase;
+    
+}
+.razdel{
+  
+    text-transform: uppercase;
+    font-family: impact;
+}
+.ipInf{
+    text-align: left;
+}
+.f-contact{
+    text-align: right;
+}
+.nav-link-one{
+    padding-left:0;
+}
+.nav-link-header{
+    padding-right: 0;
+}
+.nav-align{
+    text-align: right;
+}
+
+
+
+@media screen and (max-width:768px){
+    .ipInf,.f-contact{
+        text-align: center;
+    }
+    .nav-align{
+        text-align: center;
+    }
+    
+    .nav-link{
+        font-size: 14pt;
+    }
+    .contact{
+        text-align: center;
+    }
+    #logo{
+        
+        width:50%;
+    }
+    .text-logo{
+        text-align: center;
+    }
+    #footer .nav-link-one{
+        padding-left: 1em;
+    }
+    .nav-link-header{
+        padding-right: 1em;
+    }
+}
+@media screen and (max-width:568px) {
+    .nav-link{
+        font-size: 11pt;
+    }
+    .#logo{
+        height:80%;
+        width:80%;
+    }
+        
+}
