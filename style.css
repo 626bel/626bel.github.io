@@ -126,3 +126,13 @@ left:15px;
     }
         
 }
+@media screen and (max-width:412px) {
+    .nav-link{
+        font-size: 9pt;
+    }
+    .#logo{
+        height:80%;
+        width:80%;
+    }
+        
+}
