@@ -6,6 +6,8 @@
     background-image: url(img/bgh.jpg);
     background-size:cover;
     background-position:center;
+    background-repeat: no-repeat;
+    width: 100%;
     
 }
 li{
@@ -125,17 +127,15 @@ left:15px;
         width:80%;
     }
     .contact{
-        font-size:11pt;
+        font-size:10pt;
     }
         
 }
 @media screen and (max-width:412px) {
-    .nav-link{
-        font-size: 9pt;
-    }
     .#logo{
         height:80%;
         width:80%;
     }
+    
         
 }
