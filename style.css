@@ -28,6 +28,10 @@ li{
     font-size: 24pt;
     font-family: impact;
 }
+.card-header{
+    text-transform: uppercase;
+    font-weight: bold;
+}
 .text-black{
     color:black;
 }
@@ -127,16 +131,8 @@ left:15px;
         width:80%;
     }
     .contact{
-        font-size:10pt;
+        font-size:14pt;
     }
         
 }
-@media screen and (max-width:320px) {
-    .#logo{
-        height:80%;
-        width:80%;
-    }
-    .contact:11pt;
-    
-        
-}
+
